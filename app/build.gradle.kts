@@ -48,6 +48,27 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:2.0.21")
+
+    // Import the Firebase BoM
+
+    implementation(platform("com.google.firebase:firebase-bom:33.16.0"))
+
+
+    // TODO: Add the dependencies for Firebase products you want to use
+
+    implementation("com.google.firebase:firebase-messaging:24.1.2")
+
+    // When using the BoM, don't specify versions in Firebase dependencies
+
+    implementation("com.google.firebase:firebase-analytics")
+
+
+    // Add the dependencies for any other desired Firebase products
+
+    // https://firebase.google.com/docs/android/setup#available-libraries
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

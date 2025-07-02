@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "323909649271",
+    "project_id": "hermes-trading-627c5",
+    "storage_bucket": "hermes-trading-627c5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323909649271:android:1a5b056ea53e2a41315772",
+        "android_client_info": {
+          "package_name": "com.levi.hermes_trading"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGzclzWkRgw1f53VQ87Xv-Bm5rZZIl0I8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
