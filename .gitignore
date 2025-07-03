@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+GetOAuth2Token.py
+sendTestMessage.py
+service-accounts.json
